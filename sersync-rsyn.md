@@ -1,0 +1,1 @@
+利用sersync配合rsync实现数据实时同步.
