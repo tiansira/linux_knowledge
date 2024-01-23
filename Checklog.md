@@ -5,7 +5,7 @@ tail -f file.log 循环读取
 eg:
 tail -n 10 test.log   查询日志尾部的最后10行
 tail -n +10 test.log  查询10行之后的所有行
-tail -fn 10 test.log  循环实时查看最后1000行记录
+tail -fn 10 test.log  循环实时查看最后10行记录
 
 一般一会配合grep使用:
 tail -fn 1000 test.log | grep '关键字'
